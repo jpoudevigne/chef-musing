@@ -12,3 +12,4 @@ This will:
 # So:
 
 * To install and start Mongodb : `sudo chef-client --local-mode --runlist 'recipe[mongodb::install]'`
+* To stop and remove Mongodb : `sudo chef-client --local-mode --runlist 'recipe[mongodb::remove]'`
