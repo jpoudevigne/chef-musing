@@ -3,7 +3,7 @@ service 'mongodb' do
  action [:stop]
 end
 
-apt_package 'mongodb' do
+apt_package 'mongodb-org' do
    action :purge
 end
 
